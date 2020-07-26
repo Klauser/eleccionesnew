@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Prueba</title>
+</head>
+<style>
+    #gato {
+        width: 300px;
+        border-radius: 50%;
+        display: block;
+        display: ;
+        margin-left: 300px;;
+    }
+</style>
+<body>
+    <h1>Mi primera pagina</h1>
+    <p>Esta es la primera vez que creo una pagina.</p>
+    <img id="gato" src="https://estaticos.elperiodico.com/resources/jpg/1/6/gato-1502194230861.jpg" alt="">
+    
+    <button id="eliminar">Eliminar</button>  
+    <script>
+        const btnEliminar = document.getElementById('eliminar');
+        const gato = document.getElementById('gato');
+        btnEliminar.addEventListener('click', function(){
+            gato.style.display = 'none';
+        })
+    </script>  
+</body>
+
+</html>
+
